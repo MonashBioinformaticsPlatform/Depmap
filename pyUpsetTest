@@ -1,0 +1,27 @@
+from  upsetplot import generate_counts
+example=generate_counts()
+print(example)
+
+from upsetplot import plot
+plot(example, orientation='vertical')
+from matplotlib import pyplot
+pyplot.suptitle('Rotated')
+pyplot.show()
+
+from upsetplot import from_memberships
+example2=from_memberships(
+    [[],
+    ['cat2'],
+    ['cat1'],
+    ['cat1','cat2'],
+    ['cat0'],
+    ['cat0','cat2'],
+    ['cat0','cat1'],
+    ['cat0','cat1','cat2'],
+    ],
+    data=[56,283,1279,5882,24,90,429,1957]
+
+)
+print(example2)
+
+

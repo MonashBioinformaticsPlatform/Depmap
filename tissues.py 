@@ -1,0 +1,9 @@
+import pandas as pd
+import numpy as np
+from pandas.core.indexes.base import ensure_index 
+from upsetplot import UpSet
+from matplotlib import pyplot as plt
+
+
+tissues=['Adrenal Cortex', 'Bile Duct', 'Blood', 'Bone', 'Breast', 'Central Nervous System', 'Cervix', 'Colorectal', 'Embryo', 'Engineered', 'Engineered Blood', 'Engineered Bone', 'Engineered Breast', 'Engineered Central Nervous System', 'Engineered Kidney', 'Engineered Lung', 'Engineered Ovary', 'Engineered Prostate', 'Epidermoid Carcinoma', 'Esophagus', 'Eye', 'Fibroblast', 'Gastric', 'Kidney', 'Liver', 'Lung', 'Lymphocyte', 'Ovary', 'Pancreas', 'Peripheral Nervous System', 'Plasma Cell', 'Prostate', 'Skin', 'Soft Tissue', 'Thyroid', 'Unknown', 'Upper Aerodigestive', 'Urinary Tract', 'Uterus']
+

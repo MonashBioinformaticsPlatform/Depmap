@@ -1,0 +1,146 @@
+'curl '+ http_val+ """ -H 'authority: files.gumroad.com' -H 'upgrade-insecure-requests: 1' -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36' -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' -H 'sec-fetch-site: same-site' -H 'sec-fetch-mode: navigate' -H 'sec-fetch-user: ?1' -H 'sec-fetch-dest: document' -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"' -H 'sec-ch-ua-mobile: ?0' -H 'sec-ch-ua-platform: "macOS"' -H 'referer: https://app.gumroad.com/' -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' -H 'cookie: _gid=GA1.2.1338804220.1639738228; remember_user_token=eyJfcmFpbHMiOnsibWVzc2FnZSI6Ilcxc3hNakF6TURNMU5sMHNJaVF5WVNReE1TUjJSWEIxZURRdlpHUkNWR05TVXpoaFYyZE1hV2t1SWl3aU1UWXpPVGMwTURZeE5DNDRORE0yTVRjeUlsMD0iLCJleHAiOiIyMDIyLTAxLTE3VDExOjMwOjE0WiIsInB1ciI6bnVsbH19--10f3da351c799d1b88a8337869a58ac1a0f4c04b; _ga_6LJN6D94N6=GS1.1.1639743411.2.1.1639743413.0; _ga=GA1.1.1421945709.1639738228; _gumroad_app_session=9JkKtirgov%2FxgyHlIeJJqCCcBbEwprHvPJydmathzgCCmHzpY2qp5%2FCTiKVGqHs0mjUxmFy6fgCw44e%2Bq6ULoqwp6lVOzTJ29rUfhhIxyW5Ga6Fj7mOz%2B8NV%2FaYc4ch4JDOtsz4FaVJbs0MF%2F04MzXIQ9c70VkWF%2F7msBT%2BGhFSryJNKVKYlTRSWPZnOMNXwciKtQro820TQuNSfv58I2mRx1KCKQ5%2B09BPBAuinjgcM3nPEviF3BP6hZdbTzDgh4zDEVMUHl0XV%2BU9f8H%2FF7WMx9mFB0Bslvct0GpAkHiqZoA81S9VJhT0sED4ceuD4620Uh%2ByD3EL9YAHmHLhVL93A3bRrQ7Pdj2Jw3SKUR6UGOCvhSFV02y%2B%2FfWuIOViBry3Kglu8VDdOCp%2FxPUolIqavRR1fEPkxuJbamHth7bLFhcmavpQDrjAalCtto0XM91%2FCf760jWEaHD8u%2FxEEzH8hNOiXeKog7NfwcOJc98ixKKG%2Bql20EyX3WBQ2--Tk8imMh%2FQLBMOtF1--1ndjvh3WJz8Fi5oNJbo0BQ%3D%3D' --compressed --output ./"""+ output_val
+
+
+
+
+
+
+"curl "+ http_val+""" \
+  -H 'authority: files.gumroad.com' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'referer: https://app.gumroad.com/' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'cookie: _gid=GA1.2.1338804220.1639738228; remember_user_token=eyJfcmFpbHMiOnsibWVzc2FnZSI6Ilcxc3hNakF6TURNMU5sMHNJaVF5WVNReE1TUjJSWEIxZURRdlpHUkNWR05TVXpoaFYyZE1hV2t1SWl3aU1UWXpPVGMwTURZeE5DNDRORE0yTVRjeUlsMD0iLCJleHAiOiIyMDIyLTAxLTE3VDExOjMwOjE0WiIsInB1ciI6bnVsbH19--10f3da351c799d1b88a8337869a58ac1a0f4c04b; _ga_6LJN6D94N6=GS1.1.1639746983.3.1.1639746993.0; _ga=GA1.1.1421945709.1639738228; _gumroad_app_session=Lx5201IBzeZLMKKr9uZAohFgYE6GeL%2BFJ5C%2BpkfmPhh73IDm7tRwGElFawxGK42rxOW81ncKkxTQFQ9tZgIjkrY0YCzKocNwnahKtb8MmTL1nhWlAK6RIIKhNVLeCTzLRqIXe7gP0hirSCZaTS9ZeRZ3BAEXrb2QfDZYdTjLXAqAr9xxqSh4HHHjRoz6rsGL7e%2FQBqJoP9LNEk6SDHyNsJ%2BbI%2F6cAfMCAmuMOxQbGwjcmmy5jlUjlB2wivMaPvsFaG1j0LNVcnMQLfcik33rsKrpyzHP57gtPCKVQWFFihe7k0fHIjEKSu3kb16JRh9OFNKNc4RkXC8wCMt%2BDvNkTLdP2wqp4ro6QUleCmmbAzTFyIJq0WeZy8AJIOX6WTC%2By4Xufvn8a%2FwHQod8QK6lfmucTEv4KZdkvUgdtDdFLMKkMvluMBtYz2i2IpCjBCmPnZqpkfREPdarJfe%2F3bBtxaNJJr9pdbEaTV7s8huNiId%2BtHIw9U8HBGndHzD%2F--QAejCCvqyk37r994--jRHsi62OOAVYoXZSs5Q%2FGw%3D%3D' \
+  --compressed --output ./"""+output_val
+
+  curl 'https://files.gumroad.com/attachments/7a2b9bdb8f044488cbd1ccef3936ff12/original/Caribbean%20Rhythms%20PILOT.mp3?response-content-disposition=attachment&verify=1639749664-6xQ1GYRjMRlXvfbM9%2FDMNj48N4dpmk9JvdMffDWtUT0%3D' \
+  -H 'authority: files.gumroad.com' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'referer: https://app.gumroad.com/' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'cookie: _gid=GA1.2.1338804220.1639738228; remember_user_token=eyJfcmFpbHMiOnsibWVzc2FnZSI6Ilcxc3hNakF6TURNMU5sMHNJaVF5WVNReE1TUjJSWEIxZURRdlpHUkNWR05TVXpoaFYyZE1hV2t1SWl3aU1UWXpPVGMwTURZeE5DNDRORE0yTVRjeUlsMD0iLCJleHAiOiIyMDIyLTAxLTE3VDExOjMwOjE0WiIsInB1ciI6bnVsbH19--10f3da351c799d1b88a8337869a58ac1a0f4c04b; _ga_6LJN6D94N6=GS1.1.1639746983.3.1.1639746993.0; _ga=GA1.1.1421945709.1639738228; _gumroad_app_session=Lx5201IBzeZLMKKr9uZAohFgYE6GeL%2BFJ5C%2BpkfmPhh73IDm7tRwGElFawxGK42rxOW81ncKkxTQFQ9tZgIjkrY0YCzKocNwnahKtb8MmTL1nhWlAK6RIIKhNVLeCTzLRqIXe7gP0hirSCZaTS9ZeRZ3BAEXrb2QfDZYdTjLXAqAr9xxqSh4HHHjRoz6rsGL7e%2FQBqJoP9LNEk6SDHyNsJ%2BbI%2F6cAfMCAmuMOxQbGwjcmmy5jlUjlB2wivMaPvsFaG1j0LNVcnMQLfcik33rsKrpyzHP57gtPCKVQWFFihe7k0fHIjEKSu3kb16JRh9OFNKNc4RkXC8wCMt%2BDvNkTLdP2wqp4ro6QUleCmmbAzTFyIJq0WeZy8AJIOX6WTC%2By4Xufvn8a%2FwHQod8QK6lfmucTEv4KZdkvUgdtDdFLMKkMvluMBtYz2i2IpCjBCmPnZqpkfREPdarJfe%2F3bBtxaNJJr9pdbEaTV7s8huNiId%2BtHIw9U8HBGndHzD%2F--QAejCCvqyk37r994--jRHsi62OOAVYoXZSs5Q%2FGw%3D%3D' \
+  --compressed
+
+
+  fetch("https://files.gumroad.com/attachments/7a2b9bdb8f044488cbd1ccef3936ff12/original/Caribbean%20Rhythms%20PILOT.mp3?response-content-disposition=attachment&verify=1639749664-6xQ1GYRjMRlXvfbM9%2FDMNj48N4dpmk9JvdMffDWtUT0%3D", {
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+    "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-site",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1"
+  },
+  "referrer": "https://app.gumroad.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+
+
+
+{'authority': 'files.gumroad.com','upgrade-insecure-requests': 1,'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36','accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-site','sec-fetch-mode': 'navigate','sec-fetch-user': '?1','sec-fetch-dest': 'document','sec-ch-ua': """ " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96" """,'sec-ch-ua-mobile': '?0','sec-ch-ua-platform': """ "macOS" """, 'referer': 'https://app.gumroad.com/', 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8', 'cookie':'_gid=GA1.2.1338804220.1639738228; remember_user_token=eyJfcmFpbHMiOnsibWVzc2FnZSI6Ilcxc3hNakF6TURNMU5sMHNJaVF5WVNReE1TUjJSWEIxZURRdlpHUkNWR05TVXpoaFYyZE1hV2t1SWl3aU1UWXpPVGMwTURZeE5DNDRORE0yTVRjeUlsMD0iLCJleHAiOiIyMDIyLTAxLTE3VDExOjMwOjE0WiIsInB1ciI6bnVsbH19--10f3da351c799d1b88a8337869a58ac1a0f4c04b; _ga_6LJN6D94N6=GS1.1.1639746983.3.1.1639746993.0; _ga=GA1.1.1421945709.1639738228; _gumroad_app_session=Lx5201IBzeZLMKKr9uZAohFgYE6GeL%2BFJ5C%2BpkfmPhh73IDm7tRwGElFawxGK42rxOW81ncKkxTQFQ9tZgIjkrY0YCzKocNwnahKtb8MmTL1nhWlAK6RIIKhNVLeCTzLRqIXe7gP0hirSCZaTS9ZeRZ3BAEXrb2QfDZYdTjLXAqAr9xxqSh4HHHjRoz6rsGL7e%2FQBqJoP9LNEk6SDHyNsJ%2BbI%2F6cAfMCAmuMOxQbGwjcmmy5jlUjlB2wivMaPvsFaG1j0LNVcnMQLfcik33rsKrpyzHP57gtPCKVQWFFihe7k0fHIjEKSu3kb16JRh9OFNKNc4RkXC8wCMt%2BDvNkTLdP2wqp4ro6QUleCmmbAzTFyIJq0WeZy8AJIOX6WTC%2By4Xufvn8a%2FwHQod8QK6lfmucTEv4KZdkvUgdtDdFLMKkMvluMBtYz2i2IpCjBCmPnZqpkfREPdarJfe%2F3bBtxaNJJr9pdbEaTV7s8huNiId%2BtHIw9U8HBGndHzD%2F--QAejCCvqyk37r994--jRHsi62OOAVYoXZSs5Q%2FGw%3D%3D' }
+
+
+
+curl 'https://app.gumroad.com/r/95e4cd8e1915aad08f57aa659a6c25b3/ql2VNQg8k5WH_CBTVZuaRw==' \
+  -H 'authority: app.gumroad.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'referer: https://app.gumroad.com/d/95e4cd8e1915aad08f57aa659a6c25b3' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'cookie: _gumroad_guid=5f641507-594a-4f07-805c-5a273a00d2f3; _gid=GA1.2.1338804220.1639738228; __stripe_mid=53faa4f1-3d74-435e-a60d-5f21c8022180d5e06c; _gumroad_two_factor_65b5721a4041b=5x9gr1pckYKShUxOMaW7rJFP980kUWwN8khKinSMfCOBgMFGIFWQ3i3EejrDHY0OLmb5OOyEJAv7ntf6d4E%2BviDuaB2EnAzzJNyu8rxseVWjF4913cWI2z%2BRJNqF--fzOlCEJmwAgAmahK--idKQw%2BpxPTPegoBrU3fHdw%3D%3D; remember_user_token=eyJfcmFpbHMiOnsibWVzc2FnZSI6Ilcxc3hNakF6TURNMU5sMHNJaVF5WVNReE1TUjJSWEIxZURRdlpHUkNWR05TVXpoaFYyZE1hV2t1SWl3aU1UWXpPVGMwTURZeE5DNDRORE0yTVRjeUlsMD0iLCJleHAiOiIyMDIyLTAxLTE3VDExOjMwOjE0WiIsInB1ciI6bnVsbH19--10f3da351c799d1b88a8337869a58ac1a0f4c04b; _ga_6LJN6D94N6=GS1.1.1639746983.3.1.1639746993.0; _ga=GA1.1.1421945709.1639738228; confirmed_redirect=QGFh0gaum9L9UctAr8gNeo2svt3mgOi24X8GVoi0r%2FSJQw%3D%3D--2Cs%2BoON4Q%2Bz8aIjR--kKg2a0BVsukbXzoBEXkPaA%3D%3D; _gumroad_app_session=Lx5201IBzeZLMKKr9uZAohFgYE6GeL%2BFJ5C%2BpkfmPhh73IDm7tRwGElFawxGK42rxOW81ncKkxTQFQ9tZgIjkrY0YCzKocNwnahKtb8MmTL1nhWlAK6RIIKhNVLeCTzLRqIXe7gP0hirSCZaTS9ZeRZ3BAEXrb2QfDZYdTjLXAqAr9xxqSh4HHHjRoz6rsGL7e%2FQBqJoP9LNEk6SDHyNsJ%2BbI%2F6cAfMCAmuMOxQbGwjcmmy5jlUjlB2wivMaPvsFaG1j0LNVcnMQLfcik33rsKrpyzHP57gtPCKVQWFFihe7k0fHIjEKSu3kb16JRh9OFNKNc4RkXC8wCMt%2BDvNkTLdP2wqp4ro6QUleCmmbAzTFyIJq0WeZy8AJIOX6WTC%2By4Xufvn8a%2FwHQod8QK6lfmucTEv4KZdkvUgdtDdFLMKkMvluMBtYz2i2IpCjBCmPnZqpkfREPdarJfe%2F3bBtxaNJJr9pdbEaTV7s8huNiId%2BtHIw9U8HBGndHzD%2F--QAejCCvqyk37r994--jRHsi62OOAVYoXZSs5Q%2FGw%3D%3D' \
+  --compressed
+
+  curl 'https://files.gumroad.com/attachments/63bbf7be2114d4198d3eb5ab281581c7/original/EPISODE%202%3A%20ANGOLA%2C%20ANGOLA.mp3?response-content-disposition=attachment&verify=1639755719-%2BOp3jomwTSdHoQ9jeiCxgf5blpODdQcpuPVClEidPVM%3D' \
+  -H 'authority: files.gumroad.com' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'referer: https://app.gumroad.com/' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'cookie: _gid=GA1.2.1338804220.1639738228; remember_user_token=eyJfcmFpbHMiOnsibWVzc2FnZSI6Ilcxc3hNakF6TURNMU5sMHNJaVF5WVNReE1TUjJSWEIxZURRdlpHUkNWR05TVXpoaFYyZE1hV2t1SWl3aU1UWXpPVGMwTURZeE5DNDRORE0yTVRjeUlsMD0iLCJleHAiOiIyMDIyLTAxLTE3VDExOjMwOjE0WiIsInB1ciI6bnVsbH19--10f3da351c799d1b88a8337869a58ac1a0f4c04b; _ga_6LJN6D94N6=GS1.1.1639746983.3.1.1639746993.0; _ga=GA1.1.1421945709.1639738228; _gumroad_app_session=ji6%2Fh61G5fScpI4ZhQA29Rz7WBF0F8skKEtWlTelqh%2BMZkocuVbgzNDJNjMP3UqB9wVJnt3yjqrm5q%2BOGJBeYiPR4GdXLvcFnZhcnlNOFXe56SWWX7Aa0ziyy3H%2BYMwdfANYUkeHx21nvxX62Z%2FFaDpbzJnuV%2BDT9StdcMkhbLkp0sv8YydvhpUoxPbefXYTGsP634BQViisEycfKL%2FCbeMwamJXLk5%2BPz3Y3QpJze0TtjJNqnLTpS8Cu3PxIv%2Buq%2B0Cvc0sQWRvTl559yOe8O%2FbQGegTiIzV8s3qIQQQaQqD8nu%2BqaigqYT0jPxAgIiN9HkJ5LSnmbNHqG1spy2t%2BWNZSAPIeZMT27QjtP3XlvH0riXEc%2BqTDZYxN6owjC8Ydi%2FdL55lYJBkTbVHG1hD5YYaJG%2FcSeAMI3CzI3W7aNGafwuSqlRZxolPYgeh%2BHcfbyDYzUQ9a1VbAUJDoT7Bm3c1jLkr1NtnUWlP4aHBqAjwHwZK62qlMG82%2BUm--ToBXOx2%2FNiLlYimh--c2Z0me3OgiogVya1Gy9IzA%3D%3D' \
+  --compressed
+
+
+  curl 'https://es.rs-online.com/login' \
+  -H 'authority: es.rs-online.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'referer: https://es.rs-online.com/web/' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'cookie: bm_sz=AF11D37AC28A895BB94AD8AED5510AFF~YAAQfcLOF+1J17N9AQAAbZvkzQ4eGEkz4zq7a6RKmeDbsqmft3vYc/T8Vz/9vwg2GIZKBuyPVKdk3wxQIZT194mSfMIENAOX0l1JloyXMxDduYCE00jJRF+yzCQJwcqoqh9TVAMU4GRwcVe2F9ihYAA819VR1sJrBF3hcDjLm5syRp0OwR+LFREoe/ZanZD7k6Iq5NSqKnaDQJJLns8mIX6iCFm7Zy6cL+AOKvOPeEXPv1z9adhy5faDKSi7TblrbW46GYhAcrbhsbzwH5WSOOXeAd55hb7MRHWTMSji1g2z2/ESn1I=~3224133~3223864; rs_exp_id=5329743c-5597-4cad-b449-ac5f599db6a3; bm_mi=EE08A50E92EE694D3B846A31562CA2FF~TRJgme1zSvHYXQGiHKWbA7FSlI6aLaCkn3ZS14UBSOtVzGuK3Z5K+pfqBBG09tz3LReyvOy+qqtswDzw8KvzbYDpz0qY+h3RD4Qhyy008ALt2mMy/sSIJ2r1rS1wUF969SB9bR2XQv8UuNsqOlAnv8ufZ0uwwc4V4PJd5/BqQtNt5HB67AhrHHgF0A5nCkmpduRGnajCzyjsm1FKJi1VPU05j1rs3yP5a5zdWfC01xFGaE/4JJzQCWP3MRy0zD+kkf9UNidOquAVFFetGNXmrA==; check=true; mbox=session#5c0520bf6d7e40cab071a8c604523ce0#1639838717; optimizelyEndUserId=oeu1639836856518r0.3762206498561149; RSCOMPONENTS_ENSIGHTEN_PRIVACY_BANNER_LOADED=1; AMCVS_CB3F58CC558AC9FB7F000101%40AdobeOrg=1; AMCV_CB3F58CC558AC9FB7F000101%40AdobeOrg=1585540135%7CMCIDTS%7C18980%7CMCMID%7C63658622339508284981122329425653693371%7CMCAAMLH-1640441656%7C8%7CMCAAMB-1640441656%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1639844056s%7CNONE%7CvVersion%7C4.4.0; s_cc=true; bm_sv=0C9D35E659DAE6EB5AD5CF12B0F34357~16eCsS4Djo0VCd32xP9A5shvt7k5nmkbULghUTwcmSTFMYrH96DeEMSzhVaFzhPchDNbSy25Gsi8fbwh+uUkxVs8sxWoFGV4jYEwfDpl1pk/T7RkgX0vY4uq+lFW2H0sHa2dtc2cHGxfZkLmcT3UanZaZGpguUvqpFXqlyHINVA=; AAMC_electro_0=REGION%7C8; aam_uuid=63654752872005822931125323073653212924; s_ht=1639836857274; s_hc=1%7C0%7C0%7C0%7C0; _abck=0D6F53F2253B350D6B26ACEF3CE4896F~0~YAAQfcLOF/RJ17N9AQAAl7TkzQciIC2c2Bhm2c2ywE6M6RPlH5viHv6iyX1BYnh6roDJLciIz8vvavgkd7mHLQnxTyoGX4g03D8tIiuUv2jO1qox1w9y8zlLGbdQ7pJ5A7AT6dOTGeYQv6oIzNb5N2k7b8RdHcIx4QR1a8DbWeEsguZ/BhTtcRt02VFaaX76/exnVQev/cP+nNKbKk13IiOEou2HRnmQ4xK9CL5tHb+u4rw0b01CnK6s07KRygVD7N35ZhWcnh6Di/yaxIVX4JLNA8YOUuOtqQOIxDllL9CQEcddOGEuLOvnkJw2fatgQtsVZEEDv2da2rCsYVYfR6E4m0OcniUcnc9H6Slkop+dU1aa1kLuxGPrD6/qJ0nemkqRQUsF3bB4WMI2/nnUhzlxwQ+5A2JxXVqi~-1~||-1||~-1; dtm_token_sc=AQEHp3qZzcf9mgF9EtMeAQEBAQA; ak_bmsc=437D1A875A65B8CEC5787C99DACEB931~000000000000000000000000000000~YAAQfcLOF/ZJ17N9AQAAk7XkzQ6Ss0MGumSYR4iU06gq2GDPeNeHqTtgFSTYDu5YgSX5gsqpxntVfQkS0NX9DtYLKV9E2+kSIxaBkEnorQu9ap+DqmRf66XJXMM+lUesMMPStzgXv6cZQwoHWpwh2BkVYvGO+2AYhOb/KBJnmZ46mlgv4rviabr/VRA0ILJUZF+bV3gZ/5w4+ctQZtv/oJjW6WFFSPgAOc8bOhAvgAJnUcptvp5YQBFdbg6ksxCJAjaQdjOygw2BNXotGkS929BZ0yPhKkmcpO1ScRHveXDrGAuZSJn2KfJBSUltNVAZyFGvSUQUBL4qrMb7/yW61Vva8FlLP0vZrH7oGhE7rc3LyVd8uE/rVUyYQE6OGvZh9zht/DwxLD+xfD6G4NJ4Z3s8FNEjAf4/YeY09XEX/pvobbU=; dtm_token=AQEHp3qZzcf9mgF9EtMeAQEBAQA; s_sq=rscomponentsprod%252Crscomponentsdsprod%3D%2526c.%2526a.%2526activitymap.%2526page%253Dhome%252520page%2526link%253DLogin%2526region%253Dheader-account-section%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253Dhome%252520page%2526pidt%253D1%2526oid%253Dhttps%25253A%25252F%25252Fes.rs-online.com%25252Flogin%2526ot%253DA; RT="z=1&dm=rs-online.com&si=d6966dac-3805-4be3-a9ac-f2db3ead0cf9&ss=kxbwiu38&sl=1&tt=2yn&bcn=%2F%2F684d0d49.akstat.io%2F&ld=2yq&nu=3zclu52a&cl=jvn&ul=jvt"; ADRUM=s=1639836879238&r=https%3A%2F%2Fes.rs-online.com%2Fweb%2F%3F0' \
+  --compressed
+
+
+_gid=GA1.2.411646168.1639783521; _ga_6LJN6D94N6=GS1.1.1639783521.1.1.1639783574.0; _ga=GA1.1.787929731.1639783521; _gumroad_app_session=9XAdh2Pqs2WwC9W81RmgKbcMyCSH9eg7+yC1Hz3hsONJCyTSBSP86uxQ7bSPtxLX1TpXyMFD25CbQ+FRMIGysmrJuezvSePXPXXpYZbc4q76dXZrhbboFz/n4GYao56x+APgxmMKDc4Wz5XDsiZKhU8s5nes7Ro+AaBHPs10kVMIb2pDL/FTRsYXuEU4gliV2aoi7gbcvH+wQMq/YKhwi/+yi51GmIIF9jt62ETTPFJ8txNN4O/KhHxcLjXwdD0eJksBaoQdy1b0zQAJ3Lskw3SYXiBj--EzFHR/sWyp9DzScG--7GBK/pGYuBDuiQlzHDORrg==
+
+curl 'https://app.gumroad.com/events/track_user_action' \
+  -H 'authority: app.gumroad.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"' \
+  -H 'x-csrf-token: nVqB9gBuRudKM0ZJ24O28okMFw8sAnYnOt4SkhT+Pdg=' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'origin: https://app.gumroad.com' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://app.gumroad.com/d/95e4cd8e1915aad08f57aa659a6c25b3' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  -H 'cookie: _gumroad_guid=09044b57-49e5-4891-9137-383ab0407d94; _gid=GA1.2.411646168.1639783521; confirmed_redirect=AAEW38ogrll5knxTy0LP8Z7sziD65J6NKfb9BSFqoG%2BL2Q%3D%3D--qTB%2FrtP0hXoTeeKU--zF5CWev9Pncf4bdkO57JLA%3D%3D; __stripe_mid=62ddfe9d-4f3a-40cb-bae5-7b8334a79a821fb999; __stripe_sid=1316c3c7-03ec-4b98-b52c-703a205cfd1f905b02; _ga_6LJN6D94N6=GS1.1.1639841160.2.1.1639841814.0; _ga=GA1.1.787929731.1639783521; _mkra_stck=mysql%3A1639842073.977177; _gumroad_app_session=hm9f5%2BAopp2depDMb1S9MC1%2Brv2FLxDvTGjTIt4HQjWMuH2eJAbdGNjFnLWpc1AMGqycNZ5%2FsAIRYcpnggZSYF%2BYySjY2Bj5jmKrNwEVTzZfx20Y6tsB9ybF7rfGj%2FFdu9b0qmSqgaXShfBOZCzah8rNV%2B22ZRyl40ojP2keqzsz5PC5Hp6DDvTSRstH9w4NpNPgNMxUFZGiZ5bUbAEnnygW1l%2FVapk2YxcV%2FLxKVFnDjCSj6lwi49tdFHeTDczPdpNgM409GNgjiNaASOrVU%2F6gzvdt--HEw4MIRSrjOqUV4M--NKeuYQbak2o%2FqKukqvrmhg%3D%3D' \
+  --data-raw 'event_name=download_click&referrer=https%3A%2F%2Fapp.gumroad.com%2Fconfirm%3Fdestination%3Ddownload_page%26id%3D95e4cd8e1915aad08f57aa659a6c25b3&plugins=PDF+Viewer%2CChrome+PDF+Viewer%2CChromium+PDF+Viewer%2CMicrosoft+Edge+PDF+Viewer%2CWebKit+built-in+PDF&is_modal=false&from_multi_overlay=false&view_url=%2Fd%2F95e4cd8e1915aad08f57aa659a6c25b3' \
+  --compressed
+
+_gid=GA1.2.411646168.1639783521; _gat=1; _ga_6LJN6D94N6=GS1.1.1639841160.2.1.1639841165.0; _ga=GA1.1.787929731.1639783521; _gumroad_app_session=c6MKw/fkw9bEcbd0y96xrZOeLmImVJXztd3zr/aOa+yQpMBUJM7qROiVhd/KmcB1UZNbLqZ/qmH1he+jRbxcDOFupQZxf3ftb1I+S4afqIcxAOPfK2f7NxKtT587ymkSrYhS4vRUKbrBuwQ5msvp2zemuBzx5D0U3lvimtqALQcdMThs2kqIUgoFGpRV/44BTLSbgRXQzTRjMoCxiT5MdDNGl57yyYjUotOpG0D3hNqGRmRxKzAk9J1vsJT3llEZ2wbxX2OZLqoQLXor8toEIsKgg8CG--B1ksdQW5h0bYJc/v--TcMSl4wHMn4u2kze+vYHpA==
